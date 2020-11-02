@@ -2,10 +2,6 @@
 <manifest>
 <remote name="nemo" fetch="https://github.com/ParanoidNemo/" />
 
-<remove-project name="device/google/sunfish" />
-<remove-project name="device/google/sunfish-kernel" />
-<remove-project name="device/google/sunfish-sepolicy" />
-
 <project path="device/google/sunfish" name="device_google_sunfish" groups="device,sunfish" remote="nemo" />
 <project path="device/google/sunfish-kernel" name="device_google_sunfish-kernel" groups="device,sunfish" clone-depth="1" remote="nemo" />
 <project path="device/google/sunfish-sepolicy" name="device_google_sunfish-sepolicy" groups="device,sunfish" remote="nemo" />
